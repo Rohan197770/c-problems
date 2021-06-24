@@ -12,7 +12,7 @@ bool issafe(int** arr, int x , int y, int n)
 
 bool ratinmaze(int** arr ,int x,int y,int n,int** solarr)
 {
-    if(x==n-1 && y==n-1)
+    if(x==n-1 && y==n-1) // base condition
     {
         solarr[x][y]=1;
         return true;
@@ -40,7 +40,7 @@ int main()
     int n;
     cin>>n;
 
-    int** arr =new int*[n];
+    int** arr =new int*[n]; // memory alogation of array through dynamic alocation
     for(int i=0;i<n;i++)
     {
         arr[i]= new int [n];
@@ -60,7 +60,7 @@ int main()
         solarr[i] =new int[n];
         for(int j=0;j<n;j++)
         {
-            solarr[i][j]=0;
+            solarr[i][j]=0;// decalaring sol arr
         }
     }
     if(ratinmaze(arr ,0,0,n,solarr))

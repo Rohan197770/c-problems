@@ -81,7 +81,11 @@ int main()
             arr[i][j]=0;
         }
     }
-    if(nqueen(arr,0,n))//
+<<<<<<< HEAD
+    if(nqueen(arr,0,n)
+=======
+    if(nqueen(arr,0,n))
+>>>>>>> 4b4de49418cb60c86530c421599f1162ae6e0c00
     {
         for(int i=0;i<n;i++)
         {

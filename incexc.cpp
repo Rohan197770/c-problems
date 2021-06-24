@@ -6,7 +6,7 @@ int divisible(int n,int a,int b)
 {   
     int c1=n/a;
 
-    int c2=n/b;
+    int c2=n/b;//
 
     int c3=n/(a*b);
 

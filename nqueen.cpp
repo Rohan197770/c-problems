@@ -81,7 +81,7 @@ int main()
             arr[i][j]=0;
         }
     }
-    if(nqueen(arr,0,n))
+    if(nqueen(arr,0,n))//
     {
         for(int i=0;i<n;i++)
         {

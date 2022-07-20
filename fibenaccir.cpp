@@ -1,9 +1,9 @@
-// finding nth  fibenacci number using recursion
+// finding nth  enacci number using recursion
 
 #include <iostream>
 using namespace std;
 
-int fibenacci(int n)
+int enacci(int n)
 {
     if(n==0)
     {
@@ -13,7 +13,7 @@ int fibenacci(int n)
     {
         return 1;// base case
     }
-    return fibenacci(n-1) +fibenacci(n-2);
+    return enacci(n-1) +enacci(n-2);
 }
 
 int main()
@@ -21,7 +21,7 @@ int main()
     int n;
     cin>>n;
 
-    cout<<fibenacci(n)<<endl;
+    cout<<enacci(n)<<endl;
 
     return 0;
 }
